@@ -1,0 +1,23 @@
+{
+    "name": "brunodotcom/faker-meme",
+    "description": "A Faker provider filled with memes for your tests with fzaninotto/Faker",
+    "homepage": "https://github.com/brunodotcom/FakerMeme",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bruno de Souza Rocha",
+            "email": "brunodotcom@outlook.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.0",
+        "fzaninotto/faker": "~1.4"
+    },
+    "autoload": {
+        "psr-4": {
+          "FakerMeme\\": "src"
+        }
+    }
+}
