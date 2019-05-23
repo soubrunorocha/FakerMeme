@@ -14,7 +14,7 @@ class Faustao extends \Faker\Provider\Base
         "Chama o bombeiro lá!",
         "Churrasqueira de controle remoto",
         "E agora, mais do que nunca...",
-        "E agora para desligar essa merda ai meu?",        
+        "E agora para desligar essa merda ai meu?",
         "Errooooouu!",
         "Esta fera aí, meu!",
         "Está fera ai bixo",
@@ -38,11 +38,11 @@ class Faustao extends \Faker\Provider\Base
     ];
 
     /**
-     * A random Food Name.
+     * A random Faustão Quote
      * @return string
      */
     public function quote()
     {
         return static::randomElement(static::$faustoQuotes);
-    }   
+    }
 }
